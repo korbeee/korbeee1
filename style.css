@@ -1,0 +1,115 @@
+body{
+    background-image:url('wallpaperbetter.com_1366x768.jpg') ;
+}
+header{
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 10px 10px 20px #000;
+    z-index: 999999999;
+}
+.logo{
+    width:1000px;
+    height:140px;
+     
+}
+.logo img{
+    width:50%;
+    height:140px;
+    margin-top:0px;
+    margin-right: -350px;
+}
+nav{
+    width:80%;
+    height: auto;
+    float:left;
+    text-align: center;
+}
+nav ul{
+   
+    padding-top:50px;
+    padding: 5px;
+}
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    padding: 40px;
+    font-size:40px;
+    color:rgb(228, 193, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:bold;
+}
+nav ul li:hover{
+    color:black;
+    text-decoration: underline;
+}
+.banner{
+    width:100%;
+    height: 500px;
+    float:left;
+    margin-top:-7px;
+    align-items: center;
+}
+.carousel{
+    width: 75%;
+    margin-left:13%;
+    box-shadow: 10px 10px 30px #ffffff;
+    z-index: 9999999
+}
+.primary{
+    width:100%;
+    height:450px;
+    background-color: #f2f3f5;
+    float:left;
+}
+/* https://pastebin.com/qyFX7HsH */
+.box{
+    width:300px;
+    height:300px;
+    background-color: rgb(27, 39, 3);
+    float:left;
+    margin-top:120px;
+    margin-left:110px;
+    border-radius:6px;
+}
+.box img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.box p{
+    text-align: center;
+    color:#f2f3f5;
+    
+    
+    
+}
+footer{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    height:80px;
+    float:left;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 10px 10px 20px #000;
+    z-index: 999;
+    color:rgb(255, 255, 255);
+}
+.sec1 img{
+    width:100%;
+    height: 100%;
+}
+center{
+    width:100%;
+    height:400px;
+}
+center img{
+    width:1000px;
+    height:300px;
+    margin-top:40px;
+    margin-right: 0px;
+    
+}
+footer{
+    margin-top:60px !important;
+}
